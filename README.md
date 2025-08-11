@@ -2,10 +2,10 @@
 
 ## Integrantes
 
-Darlyn Bravo
-Joel Torrejón
-Giovanny Vega
-Brandon Valle
+- Darlyn Bravo
+- Joel Torrejón
+- Brandon Valle
+- Giovanny Vega
 
 Este repo contiene los notebooks y el script de inferencia para:
 - **Ejercicio 1–4** (tensores, métricas, clasificación)
