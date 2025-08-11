@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  tf-lab:
+    build: .
+    image: tf-lab:latest
+    container_name: tf-lab
+    ports:
+      - "8888:8888"
+      - "8000:8000"   # (opcional) para FastAPI en Ej.5
+    volumes:
+      - ./:/workspace
+    platform: "linux/arm64"
